@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E715032022E1970068D400 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E715022022E1970068D400 /* AppDelegate.m */; };
+		02E7150C2022E1970068D400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E7150A2022E1970068D400 /* Main.storyboard */; };
+		02E7150E2022E1970068D400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E7150D2022E1970068D400 /* Assets.xcassets */; };
+		02E715112022E1970068D400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E7150F2022E1970068D400 /* LaunchScreen.storyboard */; };
+		02E715142022E1970068D400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E715132022E1970068D400 /* main.m */; };
+		02E7151E2022E1970068D400 /* GrabWebViewImageByJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E7151D2022E1970068D400 /* GrabWebViewImageByJSTests.m */; };
+		02E715292022E1970068D400 /* GrabWebViewImageByJSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E715282022E1970068D400 /* GrabWebViewImageByJSUITests.m */; };
+		02E715382022E1DC0068D400 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E715372022E1DC0068D400 /* UIWebViewController.m */; };
+		02E7153B2022E1F60068D400 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E7153A2022E1F60068D400 /* WKWebViewController.m */; };
+		02E7153D2022F21D0068D400 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 02E7153C2022F21D0068D400 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02E7151A2022E1970068D400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E714F62022E1970068D400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E714FD2022E1970068D400;
+			remoteInfo = GrabWebViewImageByJS;
+		};
+		02E715252022E1970068D400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E714F62022E1970068D400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E714FD2022E1970068D400;
+			remoteInfo = GrabWebViewImageByJS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E714FE2022E1970068D400 /* GrabWebViewImageByJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabWebViewImageByJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E715012022E1970068D400 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02E715022022E1970068D400 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02E7150B2022E1970068D400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02E7150D2022E1970068D400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02E715102022E1970068D400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02E715122022E1970068D400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E715132022E1970068D400 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02E715192022E1970068D400 /* GrabWebViewImageByJSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabWebViewImageByJSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E7151D2022E1970068D400 /* GrabWebViewImageByJSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrabWebViewImageByJSTests.m; sourceTree = "<group>"; };
+		02E7151F2022E1970068D400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E715242022E1970068D400 /* GrabWebViewImageByJSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabWebViewImageByJSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E715282022E1970068D400 /* GrabWebViewImageByJSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrabWebViewImageByJSUITests.m; sourceTree = "<group>"; };
+		02E7152A2022E1970068D400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E715362022E1DC0068D400 /* UIWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		02E715372022E1DC0068D400 /* UIWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		02E715392022E1F60068D400 /* WKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		02E7153A2022E1F60068D400 /* WKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		02E7153C2022F21D0068D400 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E714FB2022E1970068D400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E715162022E1970068D400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E715212022E1970068D400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E714F52022E1970068D400 = {
+			isa = PBXGroup;
+			children = (
+				02E7153C2022F21D0068D400 /* README.md */,
+				02E715002022E1970068D400 /* GrabWebViewImageByJS */,
+				02E7151C2022E1970068D400 /* GrabWebViewImageByJSTests */,
+				02E715272022E1970068D400 /* GrabWebViewImageByJSUITests */,
+				02E714FF2022E1970068D400 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02E714FF2022E1970068D400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02E714FE2022E1970068D400 /* GrabWebViewImageByJS.app */,
+				02E715192022E1970068D400 /* GrabWebViewImageByJSTests.xctest */,
+				02E715242022E1970068D400 /* GrabWebViewImageByJSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02E715002022E1970068D400 /* GrabWebViewImageByJS */ = {
+			isa = PBXGroup;
+			children = (
+				02E715012022E1970068D400 /* AppDelegate.h */,
+				02E715022022E1970068D400 /* AppDelegate.m */,
+				02E7150A2022E1970068D400 /* Main.storyboard */,
+				02E7150D2022E1970068D400 /* Assets.xcassets */,
+				02E7150F2022E1970068D400 /* LaunchScreen.storyboard */,
+				02E715122022E1970068D400 /* Info.plist */,
+				02E715132022E1970068D400 /* main.m */,
+				02E715362022E1DC0068D400 /* UIWebViewController.h */,
+				02E715372022E1DC0068D400 /* UIWebViewController.m */,
+				02E715392022E1F60068D400 /* WKWebViewController.h */,
+				02E7153A2022E1F60068D400 /* WKWebViewController.m */,
+			);
+			path = GrabWebViewImageByJS;
+			sourceTree = "<group>";
+		};
+		02E7151C2022E1970068D400 /* GrabWebViewImageByJSTests */ = {
+			isa = PBXGroup;
+			children = (
+				02E7151D2022E1970068D400 /* GrabWebViewImageByJSTests.m */,
+				02E7151F2022E1970068D400 /* Info.plist */,
+			);
+			path = GrabWebViewImageByJSTests;
+			sourceTree = "<group>";
+		};
+		02E715272022E1970068D400 /* GrabWebViewImageByJSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02E715282022E1970068D400 /* GrabWebViewImageByJSUITests.m */,
+				02E7152A2022E1970068D400 /* Info.plist */,
+			);
+			path = GrabWebViewImageByJSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E714FD2022E1970068D400 /* GrabWebViewImageByJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E7152D2022E1970068D400 /* Build configuration list for PBXNativeTarget "GrabWebViewImageByJS" */;
+			buildPhases = (
+				02E714FA2022E1970068D400 /* Sources */,
+				02E714FB2022E1970068D400 /* Frameworks */,
+				02E714FC2022E1970068D400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrabWebViewImageByJS;
+			productName = GrabWebViewImageByJS;
+			productReference = 02E714FE2022E1970068D400 /* GrabWebViewImageByJS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02E715182022E1970068D400 /* GrabWebViewImageByJSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E715302022E1970068D400 /* Build configuration list for PBXNativeTarget "GrabWebViewImageByJSTests" */;
+			buildPhases = (
+				02E715152022E1970068D400 /* Sources */,
+				02E715162022E1970068D400 /* Frameworks */,
+				02E715172022E1970068D400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E7151B2022E1970068D400 /* PBXTargetDependency */,
+			);
+			name = GrabWebViewImageByJSTests;
+			productName = GrabWebViewImageByJSTests;
+			productReference = 02E715192022E1970068D400 /* GrabWebViewImageByJSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02E715232022E1970068D400 /* GrabWebViewImageByJSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E715332022E1970068D400 /* Build configuration list for PBXNativeTarget "GrabWebViewImageByJSUITests" */;
+			buildPhases = (
+				02E715202022E1970068D400 /* Sources */,
+				02E715212022E1970068D400 /* Frameworks */,
+				02E715222022E1970068D400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E715262022E1970068D400 /* PBXTargetDependency */,
+			);
+			name = GrabWebViewImageByJSUITests;
+			productName = GrabWebViewImageByJSUITests;
+			productReference = 02E715242022E1970068D400 /* GrabWebViewImageByJSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E714F62022E1970068D400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Bevis;
+				TargetAttributes = {
+					02E714FD2022E1970068D400 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					02E715182022E1970068D400 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02E714FD2022E1970068D400;
+					};
+					02E715232022E1970068D400 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02E714FD2022E1970068D400;
+					};
+				};
+			};
+			buildConfigurationList = 02E714F92022E1970068D400 /* Build configuration list for PBXProject "GrabWebViewImageByJS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02E714F52022E1970068D400;
+			productRefGroup = 02E714FF2022E1970068D400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E714FD2022E1970068D400 /* GrabWebViewImageByJS */,
+				02E715182022E1970068D400 /* GrabWebViewImageByJSTests */,
+				02E715232022E1970068D400 /* GrabWebViewImageByJSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E714FC2022E1970068D400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E715112022E1970068D400 /* LaunchScreen.storyboard in Resources */,
+				02E7150E2022E1970068D400 /* Assets.xcassets in Resources */,
+				02E7153D2022F21D0068D400 /* README.md in Resources */,
+				02E7150C2022E1970068D400 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E715172022E1970068D400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E715222022E1970068D400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E714FA2022E1970068D400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E715032022E1970068D400 /* AppDelegate.m in Sources */,
+				02E715142022E1970068D400 /* main.m in Sources */,
+				02E715382022E1DC0068D400 /* UIWebViewController.m in Sources */,
+				02E7153B2022E1F60068D400 /* WKWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E715152022E1970068D400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E7151E2022E1970068D400 /* GrabWebViewImageByJSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E715202022E1970068D400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E715292022E1970068D400 /* GrabWebViewImageByJSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02E7151B2022E1970068D400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E714FD2022E1970068D400 /* GrabWebViewImageByJS */;
+			targetProxy = 02E7151A2022E1970068D400 /* PBXContainerItemProxy */;
+		};
+		02E715262022E1970068D400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E714FD2022E1970068D400 /* GrabWebViewImageByJS */;
+			targetProxy = 02E715252022E1970068D400 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02E7150A2022E1970068D400 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E7150B2022E1970068D400 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02E7150F2022E1970068D400 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E715102022E1970068D400 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02E7152B2022E1970068D400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02E7152C2022E1970068D400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02E7152E2022E1970068D400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrabWebViewImageByJS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bevis.WebViewImageBrowser.GrabWebViewImageByJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02E7152F2022E1970068D400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrabWebViewImageByJS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bevis.WebViewImageBrowser.GrabWebViewImageByJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02E715312022E1970068D400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrabWebViewImageByJSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bevis.WebViewImageBrowser.GrabWebViewImageByJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrabWebViewImageByJS.app/GrabWebViewImageByJS";
+			};
+			name = Debug;
+		};
+		02E715322022E1970068D400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrabWebViewImageByJSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bevis.WebViewImageBrowser.GrabWebViewImageByJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrabWebViewImageByJS.app/GrabWebViewImageByJS";
+			};
+			name = Release;
+		};
+		02E715342022E1970068D400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrabWebViewImageByJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bevis.WebViewImageBrowser.GrabWebViewImageByJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrabWebViewImageByJS;
+			};
+			name = Debug;
+		};
+		02E715352022E1970068D400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrabWebViewImageByJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bevis.WebViewImageBrowser.GrabWebViewImageByJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrabWebViewImageByJS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E714F92022E1970068D400 /* Build configuration list for PBXProject "GrabWebViewImageByJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E7152B2022E1970068D400 /* Debug */,
+				02E7152C2022E1970068D400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E7152D2022E1970068D400 /* Build configuration list for PBXNativeTarget "GrabWebViewImageByJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E7152E2022E1970068D400 /* Debug */,
+				02E7152F2022E1970068D400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E715302022E1970068D400 /* Build configuration list for PBXNativeTarget "GrabWebViewImageByJSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E715312022E1970068D400 /* Debug */,
+				02E715322022E1970068D400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E715332022E1970068D400 /* Build configuration list for PBXNativeTarget "GrabWebViewImageByJSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E715342022E1970068D400 /* Debug */,
+				02E715352022E1970068D400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02E714F62022E1970068D400 /* Project object */;
+}
